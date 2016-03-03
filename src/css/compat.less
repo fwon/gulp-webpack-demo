@@ -1,0 +1,19 @@
+.viewport{
+
+}
+
+.i_Btn-base(){
+	background:none;display:inline-block;height:28px;line-height: 28px; border-radius:@radius;text-align: center; vertical-align: middle; border:none;
+	background:-webkit-linear-gradient(top,transparent,transparent);font-size: 14px;
+}
+
+.i_Btn{
+	.i_Btn-base;
+	padding:0 @space * 2;border:1px solid @btn-border;color:@btn-color;
+	&:link,&:visited{
+		color:@btn-color;
+	}
+	&:hover,&:active{
+		border-color: @btn-active-border;background-color: @btn-active-bg;color:@btn-active-color;
+	}
+}

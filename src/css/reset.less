@@ -1,0 +1,47 @@
+/* 初始化浏览器默认值 */
+body, div, p, form, ul, ol, dl, dt, dd, h1, h2, h3, h4, h5, h6 {
+	padding: 0;margin: 0;
+}
+body {
+	font: @font-size-normal/1.2em @font-family-global;background-color: @body-bg;color: @text-color-normal;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: @font-size-normal;font-weight: normal;line-height: 1em;
+}
+ul, ol {
+	list-style: none;
+}
+input, textarea, button {
+	font-size: @font-size-normal; font-family: @font-family-global; margin: 0; padding: 2px; vertical-align: middle;
+}
+label {
+	cursor: pointer;
+}
+input[type="radio"], input[type="checkbox"] {
+	margin: 0 3px;
+}
+
+/* for modern browsers */
+img {
+	border: none; vertical-align: middle;
+}
+table {
+	border-collapse: collapse;
+}
+td, th {
+	text-align: center;
+}
+
+/* 全局链接 */
+a:link {
+	color: @text-color-heavy; text-decoration: none;
+}
+a:visited {
+	color: @text-color-light;
+}
+a:hover {
+	color: @main-color; text-decoration: none;
+}
+a:active {
+	color: @main-color;
+}

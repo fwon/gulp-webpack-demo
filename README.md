@@ -14,4 +14,4 @@
 发布：
 `gulp`
 
-[1]: https://segmentfault.com/a/1190000003969465
+[1]: https://github.com/fwon/blog/issues/17

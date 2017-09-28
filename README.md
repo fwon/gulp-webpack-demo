@@ -1,5 +1,5 @@
 **注意：**
-该demo15年构建，已经不维护了，当时还是采用1.0版本的webpack。现在webpack已经更新到2.0+，更多新功能和修改请参考[官网](https://webpack.js.org/)。
+**该demo15年构建，已经不维护了，当时还是采用1.0版本的webpack。现在webpack已经更新到2.0+，更多新功能和修改请参考[官网](https://webpack.js.org/)。**
 
 项目相关文章说明请见 [gulp + webpack 构建多页面前端项目][1]
 

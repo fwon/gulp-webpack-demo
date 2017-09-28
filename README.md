@@ -1,3 +1,6 @@
+**注意：**
+该demo15年构建，已经不维护了，当时还是采用1.0版本的webpack。现在webpack已经更新到2.0+，更多新功能和修改请参考[官网](https://webpack.js.org/)。
+
 项目相关文章说明请见 [gulp + webpack 构建多页面前端项目][1]
 
 由于关注该主题的人比较多，所以还是整理了一下手上项目，给出了一个简单的demo, 希望能提供一些思路。
@@ -13,9 +16,6 @@
 
 发布：
 `gulp`
-
-**注意：**
-该demo项目15年构建，当时还是采用1.0版本的webpack。现在webpack已经更新到2.0+，更多新功能和修改请参考[官网](https://webpack.js.org/)。
 
 Update:
 2017.2.24 -- devtool: 'source-map' 改为 '#source-map'， 兼容新版Chrome规则。
